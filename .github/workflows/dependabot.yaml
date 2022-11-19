@@ -1,0 +1,15 @@
+version: 2
+updates:
+  - package-ecosystem: "nuget"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    assignees:
+      - "garethbaumgart"
+    commit-message:
+      prefix: "Dependabot - NuGet"
+      include: "scope"
+    open-pull-requests-limit: 4
+    pull-request-branch-name:
+      separator: "-"
+    rebase-strategy: "auto"
