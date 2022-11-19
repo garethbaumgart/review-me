@@ -23,7 +23,7 @@ on:
 jobs:
   analyze:
     name: Analyze
-    runs-on: ubuntu-latest
+    runs-on: mcr.microsoft.com/dotnet/sdk:7.0-alpine
     permissions:
       actions: read
       contents: read
