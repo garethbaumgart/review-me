@@ -39,6 +39,10 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v3
+    - name: Install dotnet 7 SDK
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: '7.x'
 
     # Initializes the CodeQL tools for scanning.
     - name: Initialize CodeQL
