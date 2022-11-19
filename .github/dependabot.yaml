@@ -8,7 +8,7 @@ updates:
     assignees:
       - "garethbaumgart"
     commit-message:
-      prefix: "Dependabot - NuGet"
+      prefix: "NuGet"
       include: "scope"
     open-pull-requests-limit: 4
     pull-request-branch-name:
